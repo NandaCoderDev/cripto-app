@@ -6,7 +6,8 @@ import { Detail } from './Pages/detail'
 import { Notfound } from './Pages/notfound'
 import { Layout } from './components/layout'
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+    [
     {
         element: <Layout />,
         children: [
@@ -24,7 +25,11 @@ const router = createBrowserRouter([
             }
         ]
     }
-])
+],
+{
+    basename: "/cripto-app"
+}
+)
 
 export { router }
     
