@@ -1,17 +1,14 @@
 {
   "name": "cripto-app",
-  "homepage": "https://NandaCoderDev.github.io/cripto-app",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "postbuild": "node scripts/copyIndexTo404.js",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build", 
-    "deploy": "gh-pages -d build"
+    "preview": "vite preview"
   },
   "dependencies": {
     "localforage": "^1.10.0",

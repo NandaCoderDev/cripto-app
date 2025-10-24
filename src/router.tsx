@@ -26,9 +26,6 @@ const router = createBrowserRouter(
         ]
     }
 ],
-{
-    basename: "/cripto-app"
-}
 )
 
 export { router }
